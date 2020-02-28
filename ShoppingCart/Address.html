@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+form {
+    font-weight: bolder;text-align: left;background-color: black;color: blanchedalmond;
+}
+label{
+    display: inline;
+}
+</style>
+<script language="javascript" type="text/javascript" src="validate.js"></script>
+
+</head>    
+
+<body>
+    
+
+<div>
+    
+        
+     <form name="form1" onsubmit="return validate()" action="Billing.html" method="POST"> 
+            <fieldset>
+            <h1>PERSONAL  DETAILS</h1>    
+        <label>FIRST NAME</label>
+        <input type="text" name="fname" required>
+        <br>
+        <br>
+        <label>LAST NAME</label>
+        <input type="text" name="lname"required>
+        <br>
+        <br>
+        <label>DATE OF BIRTH</label>
+        <input type="date" name="dob" required>
+        <br>
+        <br>
+        <label>EMAIL</label>
+        <input type="text" name="email" required>
+        <br>
+        <br>
+        <label>PHONE NUMBER</label>
+        <input type="text" name="phone" required>
+        <br>
+        <br>      
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+         <h1>ADDRESS  DETAILS</h1> 
+        <label>HOUSE NO.</label>
+        <input type="text" name="hno" required>
+        <br>
+        <br>
+        <label>CITY</label>
+        <input type="text" name="cname"required>
+        <br>
+        <br>
+        <label>STATE</label>
+        <input type="text" name="state" required>
+        <br>
+        <br>
+        <label>PINCODE</label>
+        <input type="text" name="pincode" maxlength="6" required>
+        <br>
+        <br>         
+        <input type="submit" value="CLICK TO PAY"> 
+      </fieldset>
+      
+     </form>
+    
+           
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

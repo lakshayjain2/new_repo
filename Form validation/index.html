@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body{
+      text-align:center;
+    }
+    input,select{
+  width: 40%;
+  padding: 12px 20px;
+  margin: auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+button{
+  width: 10%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+  </style>
+   <script language="javascript" type="text/javascript" src="validation.js" defer>
+     
+   </script>
+</head>
+<body>
+  
+  <h2>Validation Form</h2>
+  
+  <div class="container">
+  <form name="myForm" >
+     Name:
+    <input name="fname" type="text" placeholder="Enter your name" required>
+    <br>
+    <br>
+    <br>Date of birth:
+    <input id="dob" type="date" >
+    <br>
+    <br>
+    <br>Email:-
+    <input name="email" type="text">
+    <br>
+    <br>
+    <br>Phone number:-
+    <input name="phone" type="text">
+    <br>
+    <br>
+    <br>City name:-
+    <select name="cname" >
+      <option>Delhi</option>
+      <option>Agra</option>
+      <option>Kolkata</option>
+      <option>Mumbai</option>
+      <option>Banglore</option>
+      <option>Chennai</option>
+      <option>Punjab</option>
+      <option>Haryana</option>
+      
+    </select>
+    <br>
+    <br>
+  </form>
+  
+  <button onclick="validateForm()" >Submit</button>
+  </div>
+
+</body>
+</html>

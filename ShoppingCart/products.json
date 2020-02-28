@@ -1,0 +1,62 @@
+{
+    "item_1": {
+        "name": "Chair",
+        "inventory": 5,
+        "price": 45,
+        "id": "item_1",
+        "image": {
+            "src": "Images/chair.jpg",
+            "alt": "Chair"
+        }
+    },
+    "item_2": {
+        "name": "Table",
+        "inventory": 7,
+        "price": 75,
+        "id": "item_2",
+        "image": {
+            "src": "Images/table.jpg",
+            "alt": "Dining Table"
+        }
+    },
+    "item_3": {
+        "name": "Sofa",
+        "inventory": 15,
+        "price": 125,
+        "id": "item_3",
+        "image": {
+            "src": "Images/sofa.jpg",
+            "alt": "Recliner"
+        }
+    },
+    "item_4": {
+        "name": "jeans",
+        "inventory": 57,
+        "price": 22,
+        "id": "item_4",
+        "image": {
+            "src": "Images/jeans3.jpg",
+            "alt": "Denim jeans3"
+        }
+    },
+    "item_5": {
+        "name": "T-shirt",
+        "inventory": 22,
+        "price": 13,
+        "id": "item_5",
+        "image": {
+            "src": "Images/t-shirt.jpg",
+            "alt": "Cotton T-shirts"
+        }
+    },
+    "item_6": {
+        "name": "Hanger",
+        "inventory": 19,
+        "price": 3,
+        "id": "item_6",
+        "image": {
+            "src": "Images/hanger.png",
+            "alt": "Hanger"
+        }
+    }
+}

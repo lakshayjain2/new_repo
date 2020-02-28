@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+
+#bill{
+height: 100%;
+background:cadetblue;
+display: flex;
+flex-wrap: wrap;
+} 
+
+.details{
+    flex: 50%;
+}
+
+.show {
+    margin: 20px;
+    height: 50px;
+    width: 100%; 
+    display: flex;
+}
+
+.image {
+margin: 10px;
+height: 50px;
+width: 100px;
+
+}
+.title{
+margin: 10px;
+height: 50px;
+width: 100px;
+font-weight: bolder;
+}
+
+.price {
+margin: 10px;
+height: 50px;
+width: 100px;
+}
+.quantity {
+margin: 10px;
+height: 50px;
+width: 100px;
+}
+.amount {
+margin: 10px;
+height: 50px;
+width: 100px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+    body{
+      text-align:center;
+    }
+    p{
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+}
+
+label { display: inline-block; 
+width: 210px;
+font-weight: bold;
+ }
+  </style>
+</head>
+<body>
+  
+  <h1>CONTACT DETAILS CARD</h1>
+  <div class="container">
+  <form>
+    
+    <label>NAME:-</label>
+    <p id="result"></p>
+    <br>
+    <br>
+    <label>PHONE-NO:-</label>
+    <p id="result1"></p>
+    <br>
+    <br>
+    <label>EMAIL:-</label>
+    <p id="result2"></p>
+    <br>
+    <br>
+    <label>DOB:-</label>
+    <p id="result3"></p>
+    <br>
+    <br>
+    <label>CITY:-</label>
+    <p id="result4"></p>
+   
+    
+    
+   
+  
+   </form>
+  </div>
+  <script>
+    console.log("display loaded");
+      document.getElementById("result").innerHTML = localStorage.getItem("name");
+     document.getElementById("result1").innerHTML = localStorage.getItem("phone");  
+ document.getElementById("result2").innerHTML = localStorage.getItem("email");
+ document.getElementById("result3").innerHTML = localStorage.getItem("dob");
+ document.getElementById("result4").innerHTML = localStorage.getItem("city");
+  </script>
+   
+</body>
+
+</html>

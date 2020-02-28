@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Page Title</title>
+
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <script language="javascript" type="text/javascript" src="displayProducts.js"> </script>
+  <script language="javascript" type="text/javascript" src="script.js"></script>
+  <script language="javascript" type="text/javascript" src="GenerateBill.js" defer></script>
+</head>
+
+
+<body>
+
+  <div class="header">
+    <h1>Welcome to ShoppingCart</h1>
+    <p><b>Where you can find anything to buy</b>
+      <p>
+  </div>
+
+
+  <div class="row">
+    <div class="side">
+      <h2 style="font-size:30px;text-align:center;">ITEMS ADDED</h2>
+      <div class="cart-items">
+      </div>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price"></span>
+      </div>
+      <button id="purchase" type="button" onclick="billing()">PURCHASE</button>
+    </div>
+
+    <div class="main" id="productsList"> 
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <h2>Footer</h2>
+  </div>
+
+
+</body>
+
+</html>
